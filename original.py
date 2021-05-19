@@ -106,7 +106,7 @@ while 1 == 1:
              "error time": inf[0][4], "state time": inf[0][5], "running time": inf[0][6], "close time": inf[0][7],
              "new_info01": inf[0][8], "new_info02": inf[0][9], "new_info03": inf[0][10], "new_info04": inf[0][11],
              "new_info05": inf[0][12], "new_info06": inf[0][13]}]}
-        with open('Running message.json', 'a', encoding='utf-8') as file:
+        with open('test01.json', 'a', encoding='utf-8') as file:
             json.dump(data, file)
             file.write('\n')
     except:

@@ -314,5 +314,5 @@ if __name__ == '__main__':
     # 啟動調度任務
     scheduler.start()
 
-    while True:
-        pass
+#     while True:
+#         pass
